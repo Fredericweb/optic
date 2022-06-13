@@ -45,9 +45,9 @@ $mail->Port = '587';								//Sets the default SMTP server port
 $mail->SMTPAuth = true;							//Sets SMTP authentication. Utilizes the Username and Password variables
 $mail->Username = 'zowblazooptic@hotmail.com';					//Sets SMTP username
 $mail->Password = 'josephniamke123';					//Sets SMTP password
-$mail->SMTPSecure = 'ssl';							//Sets connection prefix. Options are "", "ssl" or "tls"
+$mail->SMTPSecure = 'tls';							//Sets connection prefix. Options are "", "ssl" or "tls"
 $mail->From = 'zowblazooptic@hotmail.com';			//Sets the From email address for the message
-$mail->FromName = 'Zoblazo Optic';					//Sets the From name of the message
+$mail->FromName = 'zowblazo Optic';					//Sets the From name of the message
 $mail->AddAddress($email, $nom);	//Adds a "To" address
 $mail->WordWrap = 50;							//Sets word wrapping on the body of the message to a given number of characters
 $mail->IsHTML(true);							//Sets message type to HTML
